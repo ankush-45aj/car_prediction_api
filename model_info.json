@@ -1,0 +1,11 @@
+{
+    "model_name": "Car Parking Occupancy Detection",
+    "architecture": "MobileNetV2",
+    "image_size": 160,
+    "input_channels": 3,
+    "classes": {
+        "0": "VACANT",
+        "1": "OCCUPIED"
+    },
+    "threshold": 0.5
+}
